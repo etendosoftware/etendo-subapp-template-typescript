@@ -9,16 +9,6 @@ export const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     color: '#202452',
-  },
-  button: {
-    backgroundColor: '#202452',
-    padding: 10,
-    marginTop: 15,
-    borderRadius: 8,
-  },
-  textButton: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    color: 'white',
+    marginBottom: 15,
   },
 });
