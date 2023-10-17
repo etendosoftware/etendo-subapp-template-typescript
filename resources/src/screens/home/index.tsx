@@ -2,7 +2,7 @@ import React from 'react';
 import {Text, View} from 'react-native';
 import locale from '../../localization/locale';
 import {styles} from './style';
-import {Button, ArrowLeftIcon} from 'etendo-ui-library';
+import {Button, BackIcon} from 'etendo-ui-library';
 
 interface NavigationContainerProps {
   navigate: (screenName: string, params?: any) => void;
@@ -19,7 +19,7 @@ const Home: React.FC<HomeProps> = ({navigationContainer}) => {
       <Button
         typeStyle={'primary'}
         text={locale.t('Home.back')}
-        iconLeft={<ArrowLeftIcon />}
+        iconLeft={<BackIcon />}
         onPress={() => {
           navigationContainer.navigate('Home');
         }}
