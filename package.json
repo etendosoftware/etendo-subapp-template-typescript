@@ -9,7 +9,7 @@
     "test": "jest",
     "lint": "eslint .",
     "build": "rollup -c",
-    "dev": "http-server -p 3000 ../web/com.etendorx.subapp.base/"
+    "dev": "http-server -p 3000 ../web/com.etendoerp.subapp.base/"
   },
   "dependencies": {
     "@react-navigation/native": "^6.1.7",
