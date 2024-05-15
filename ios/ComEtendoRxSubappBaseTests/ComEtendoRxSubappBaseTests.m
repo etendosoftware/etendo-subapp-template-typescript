@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface CameraEtendoTests : XCTestCase
+@interface ComEtendoRxSubappBaseTests : XCTestCase
 
 @end
 
-@implementation CameraEtendoTests
+@implementation ComEtendoRxSubappBaseTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {
