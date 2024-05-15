@@ -17,7 +17,7 @@ public class MainActivity extends ReactActivity {
     return "ComEtendoRxSubappBase";
   }
 
-    @Override
+  @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(null);
   }
