@@ -45,7 +45,7 @@ target 'ComEtendoRxSubappBase' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'ComEtendoRxSubappBaseTests' do
+  target 'CameraEtendoTests' do
     inherit! :complete
     # Pods for testing
   end
