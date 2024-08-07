@@ -6,8 +6,6 @@ import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint;
 import com.facebook.react.defaults.DefaultReactActivityDelegate;
 import android.os.Bundle;
 
-
-
 public class MainActivity extends ReactActivity {
 
   /**
@@ -19,7 +17,7 @@ public class MainActivity extends ReactActivity {
     return "ComEtendoRxSubappBase";
   }
 
- @Override
+  @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(null);
   }
