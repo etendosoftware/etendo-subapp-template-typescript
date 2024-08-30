@@ -1,4 +1,4 @@
 module.exports = {
-  placeholderName: 'HelloWorld',
+  placeholderName: 'etendo-subapp-template-typescript',
   templateDir: './template',
 };
