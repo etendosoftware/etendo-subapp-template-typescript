@@ -3,6 +3,7 @@ import {Text, View} from 'react-native';
 import locale from '../../localization/locale';
 import {styles} from './style';
 import {Button, BackIcon} from 'etendo-ui-library';
+import { IFile } from '../../interfaces/IFile';
 
 interface NavigationContainerProps {
   navigate: (screenName: string, params?: any) => void;
@@ -10,9 +11,10 @@ interface NavigationContainerProps {
 
 interface HomeProps {
   navigationContainer: NavigationContainerProps;
+  sharedFiles: IFile[];
 }
 
-const Home: React.FC<HomeProps> = ({navigationContainer}) => {
+const Home: React.FC<HomeProps> = ({ navigationContainer, sharedFiles }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>{locale.t('Home.welcome')}</Text>
